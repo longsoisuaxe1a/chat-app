@@ -1,0 +1,47 @@
+.container-left {
+  width: 45%;
+  height: 100%;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container-left {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: red;
+}
+.get-otp {
+  display: flex; /* Hiển thị các phần tử con theo hàng ngang */
+  align-items: center; /* Căn chỉnh các phần tử con theo trục dọc */
+}
+
+.get-otp input[type="text"] {
+  flex: 7; /* Phần input chiếm 70% chiều rộng */
+  padding: 10px; /* Khoảng cách bên trong */
+  margin-right: 10px; /* Khoảng cách bên phải */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+}
+
+.get-otp button[type="submit"] {
+  flex: 3; /* Phần button chiếm 30% chiều rộng */
+  padding: 10px 20px; /* Khoảng cách bên trong */
+  border: none; /* Loại bỏ đường viền */
+  border-radius: 4px; /* Bo góc */
+  background-color: #007bff; /* Màu nền */
+  color: #fff; /* Màu chữ */
+  cursor: pointer; /* Con trỏ khi di chuột qua */
+  height: 100%; /* Chiều cao bằng với ô input */
+  margin-top: -9px;
+  background-color: red;
+}
+
+.get-otp button[type="submit"]:hover {
+  background-color: #0056b3; /* Màu nền hover */
+}

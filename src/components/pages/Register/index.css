@@ -1,0 +1,113 @@
+.content-left {
+    width: 45%;
+    height: 100%;
+    /* background-color: red; */
+    /* border: 1px solid black; */
+    position: relative;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .content-left {
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  .box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .content form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .content form input[type="text"],
+  .content form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .content form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .content form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .content form a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .content form a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Kiểu cho phần "Nhớ mật khẩu" và "Quên mật khẩu" */
+  .content form .remember-password {
+    display: flex;
+    justify-content: space-between; /*căn phân cách giữa checkbox và liên kết */
+  }
+  
+  .remember-password a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  .remember-password label {
+    margin-right: 220px; /* margin cho label lại gần ô checkbox */
+  }
+  
+  .logo {
+    width: 200px; /* Điều chỉnh kích thước chiều rộng của logo */
+    height: auto; /* Cho phép tỷ lệ khung hình tự động thay đổi */
+    margin: 20px auto; /* Canh chỉ giữa theo chiều ngang và thêm khoảng cách ở trên và dưới */
+  }
+  
+  .logo img {
+    width: 100%; /* Kích thước hình ảnh logo để điều chỉnh tỷ lệ */
+    height: auto; /* Cho phép tỷ lệ khung hình tự động thay đổi */
+  }
+  
+  .name-app {
+    text-align: center; /* Canh chỉ giữa theo chiều ngang */
+    margin-bottom: 20px; /* Khoảng cách dưới */
+  }
+  
+  .name-app h1 {
+    font-size: 24px; /* Kích thước phông chữ */
+    color: #333; /* Màu chữ */
+  }
+  

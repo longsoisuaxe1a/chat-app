@@ -1,0 +1,15 @@
+.content-right{
+    width: 55%;
+    height: 100%;
+    /* background-color: black; */
+}
+.banner-login {
+    text-align: center; /* Canh chỉ giữa theo chiều ngang */
+    height: 100%; /* Chiều cao của phần tử .banner-login sẽ bằng với chiều cao của phần tử cha */
+    overflow: hidden; /* Ẩn bất kỳ phần nào của nội dung vượt qua chiều cao đã đặt */
+  }
+  
+  .banner-login img {
+    max-width: 100%; /* Hình ảnh sẽ không vượt quá chiều rộng của phần tử cha */
+    height: 908px; /* Chiều cao sẽ tự động điều chỉnh để giữ tỷ lệ khung hình */
+  }
